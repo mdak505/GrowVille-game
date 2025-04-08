@@ -1,0 +1,50 @@
+body {
+  background-color: #f2f2d0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+.coins {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.farm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.plot {
+  width: 100px;
+  height: 100px;
+  background-color: #8fbc8f;
+  border: 2px solid #555;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 24px;
+}
+
+.plot.growing {
+  background-color: #ffd700;
+}
+
+.plot.ready {
+  background-color: #ff8c00;
+}
+
+.plot.locked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}

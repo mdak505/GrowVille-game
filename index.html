@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GrowVille - Farm Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌾 GrowVille 🌾</h1>
+  <div class="coins">💰 Coins: <span id="coins">0</span></div>
+
+  <div class="farm">
+    <div class="plot" onclick="plantCrop(this)"></div>
+    <div class="plot" onclick="plantCrop(this)"></div>
+    <div class="plot locked" onclick="unlockPlot(this)">🔒</div>
+  </div>
+
+  <button onclick="resetGame()">🔁 Reset Game</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
